@@ -1,0 +1,574 @@
+@font-face{
+    font-family: Metropolis-Bold;
+    src: url('/tipografia/Metropolis-Bold.otf');
+    font-family: Metropolis-SemiBold;
+    src: url('/tipografia/Metropolis-SemiBold.otf');
+    font-family: Metropolis-Regular;
+    src: url('/tipografia/Metropolis-Regular.otf');
+    font-family: Metropolis-Thin;
+    src: url('/tipografia/Metropolis-Thin.otf');
+    font-family: Metropolis-Medium;
+    src: url('/tipografia/Metropolis-Medium.otf');
+    font-family: Metropolis-Light;
+    src: url('/tipografia/Metropolis-Light.otf');
+}
+/*-------------------------------------------------------------------Home-------------------------------------------------*/
+/* Navbar */
+.navbar-nav .nav-item {
+    padding-right: 4.5rem !important;
+}
+.nav-bar{
+    color: #010101 !important;
+    font-family: Metropolis-Regular;
+}
+.register{
+    background: -webkit-gradient(linear, left top, left bottom, from(#4F9BD0), to(#284E68));
+    border-radius: 30px;
+    color: white !important;
+    padding: 5px 30px !important;
+    font-family: Metropolis-Regular;
+}
+/* SECCION 1 */
+.stn-1{
+    background-image: url('/img/background-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 768px;
+}
+.stn-1 .stn-1-1{
+    margin-top: 150px;
+}
+.stn-1 .stn-1-1 h1{
+    color: white;
+    text-align: center;
+    margin: 16px;
+    font-family: Metropolis-SemiBold;
+}
+.stn-1-1-1{
+    margin-top: 40px;
+}
+.stn-1-1-1 p{
+    color: white;
+    font-family: Metropolis-Regular;
+    font-weight: 100;
+    line-height: 9px;
+    text-align: center;
+}
+.stn-1-1-2{
+    margin-top: 80px;
+    text-align: center;
+}
+.stn-1-1-2 a{
+    background: #FFFFFF;
+    color: #305F80;
+    padding: 9px 26px;
+    border-radius: 30px;
+}
+.stn-1-1-3{
+    margin-top: 80px;
+    text-align: center;
+}
+/* SECCION 2 */
+.stn-2-1 h2{
+    padding: 60px 0px;
+    text-align: center;
+    font-family: Metropolis-SemiBold; 
+}
+.stn-2-2{
+    margin-top:80px;
+}
+.slide-text-cont{
+    margin-top: 20px;
+}
+.slide-text-cont hr{
+    border-bottom: 2px solid #F79421;
+    width: 60px;
+}
+.slide-text-cont p{
+    color: #4F9BD0;
+    font-family: Metropolis-Medium;
+    line-height: 10px;
+}
+.slide-subtext-cont{
+    font-family: Metropolis-Thin;
+}
+.left{
+    position: absolute;
+    top: 150%;
+    left: 50px;
+}
+.rig{
+    position: absolute;
+    top: 150%;
+    right:50px;
+}
+/* SECCION 3 */
+.stn-3{
+    background-image: url('/img/background-img-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 619px;
+    margin-top: 100px;
+}
+.stn-3 .stn-3-2{
+    margin-top: 80px;
+}
+.stn-3-1 h2{
+    padding: 60px 0px;
+    text-align: center;
+    font-family: Metropolis-SemiBold; 
+    color: white; 
+}
+.stn-3-1 h2 span{
+    color: black;
+}
+.slide-text-cont-3{
+    margin-top: 20px;
+}
+.slide-text-cont-3 hr{
+    border-bottom: 2px solid #F79421;
+    width: 60px;
+}
+.slide-text-cont-3 p{
+    color: white;
+    font-family: Metropolis-Medium;
+    line-height: 10px;
+}
+.slide-subtext-cont-3 span{
+    color:white;
+}
+.slide-subtext-cont-3{
+    font-family: Metropolis-Thin;
+}
+/* SECCION 4 */
+.stn-4-1 h2{
+    padding: 60px 0px;
+    text-align: center;
+    font-family: Metropolis-SemiBold; 
+}
+/* FOOTER*/
+footer{
+    background: #292929;
+}
+footer h6{
+    color: white;
+}
+.footer-cont{
+    padding: 40px 0px;
+}
+.footer-cont p{
+    color:white;
+    font-family: Metropolis-Light;
+}
+footer hr{
+    color: #292929;
+}
+.reporta p{
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    padding: 15px 1px 0px 1px;
+}
+/* --------------------------------------------------------------LOGIN------------------------------------------------------ */
+.ctn-1{
+    background-image: url('/img/login/img-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctn-2{
+    background-image: url('/img/login/img-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 768px;
+}
+.ctn-2-1 h2{
+    font-family: Metropolis-SemiBold;
+    margin-top: 120px;
+    text-align: center;
+}
+.ctn-2-1-1 .form-group{
+    margin-top: 50px;
+}
+.ctn-2-1-1 input{
+    border: 2px solid #707070;
+    border-radius:30px;
+    background: transparent;
+}
+.ctn-2-1-1 input:focus,.ctn-2-1-1 input:hover, .ctn-2-1-1 input:active{
+    border: 2px solid #3C759E;
+    border-radius:30px;
+    background: transparent;
+    outline:0px;
+    box-shadow: 0 1px 1px rgba(255, 145, 0, 0) inset, 0 0 8px rgba(255, 145, 0, 0);
+}
+.ingresar{
+    text-align: center;
+}
+.ctn-2-1-1 .ingresar input{
+    background: -webkit-gradient(linear, left top, left bottom, from(#4F9BD0), to(#284E68));
+    border-radius: 30px;
+    color: white !important;
+    padding: 5px 30px !important;
+    font-family: Metropolis-Regular;
+    border: none;
+}
+.link{
+    margin-top: 36px;
+    text-align: center;
+}
+.link a{
+    color: #818181;
+    text-align: center;
+}
+.link a:hover{
+    color: #3C759E;
+    text-align: center;
+}
+/* --------------------------------------------------------------REGISTRO------------------------------------------------------ */
+.ctn-r-1{
+    background-image: url('/img/registtro/img-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctn-r-2{
+    background-image: url('/img/registtro/img-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 768px;
+}
+.ctn-2-1 h2{
+    font-family: Metropolis-SemiBold;
+    margin-top: 120px;
+    text-align: center;
+}
+.ctn-r-2 .form-group{
+    margin-top: 25px;
+}
+.ctn-2-1-1 input, .ctn-2-1-1 .form-control{
+    border: 2px solid #707070;
+    border-radius:30px;
+    background: transparent;
+}
+.ctn-r-2 input:focus,.ctn-r-21 input:hover, .ctn-r-2 input:active, .ctn-r-2select:hover,.ctn-r-2 select:focus, .ctn-r-2 select:active{
+    border: 2px solid #3C759E;
+    border-radius:30px;
+    background: transparent;
+    outline:0px;
+    box-shadow: 0 1px 1px rgba(255, 145, 0, 0) inset, 0 0 8px rgba(255, 145, 0, 0);
+}
+.ingresar{
+    text-align: center;
+}
+.ctn-r-2 .ingresar input{
+    background: -webkit-gradient(linear, left top, left bottom, from(#4F9BD0), to(#284E68));
+    border-radius: 30px;
+    color: white !important;
+    padding: 5px 30px !important;
+    font-family: Metropolis-Regular;
+    border: none;
+}
+.link{
+    margin-top: 36px;
+    text-align: center;
+}
+.link a{
+    color: #818181;
+    text-align: center;
+}
+.link a:hover{
+    color: #3C759E;
+    text-align: center;
+}
+/* --------------------------------------------------------------RECUPERAR CONTRASENIA------------------------------------------------------ */
+.ctn-rc-1{
+    background-image: url('/img/re-contra/img-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctn-rc-2{
+    background-image: url('/img/re-contra/img-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctn-rc-2 p{
+    text-align: center;
+    line-height: 0px;
+    font-family: Metropolis-Regular;
+    margin-top: 28px;
+}
+.ctn-rc-2 h2{
+    font-family: Metropolis-SemiBold;
+    margin-top: 0px;
+    text-align: center;
+}
+.ctn-r-2 .form-group{
+    margin-top: 25px;
+}
+.ctn-2-1-1 input, .ctn-2-1-1 .form-control{
+    border: 2px solid #707070;
+    border-radius:30px;
+    background: transparent;
+}
+.ctn-r-2 input:focus,.ctn-r-21 input:hover, .ctn-r-2 input:active, .ctn-r-2select:hover,.ctn-r-2 select:focus, .ctn-r-2 select:active{
+    border: 2px solid #3C759E;
+    border-radius:30px;
+    background: transparent;
+    outline:0px;
+    box-shadow: 0 1px 1px rgba(255, 145, 0, 0) inset, 0 0 8px rgba(255, 145, 0, 0);
+}
+.ingresar{
+    text-align: center;
+}
+.ctn-r-2 .ingresar input{
+    background: -webkit-gradient(linear, left top, left bottom, from(#4F9BD0), to(#284E68));
+    border-radius: 30px;
+    color: white !important;
+    padding: 5px 30px !important;
+    font-family: Metropolis-Regular;
+    border: none;
+}
+.link{
+    margin-top: 36px;
+    text-align: center;
+}
+.link a{
+    color: #818181;
+    text-align: center;
+}
+.link a:hover{
+    color: #3C759E;
+    text-align: center;
+}
+/* --------------------------------------------------------------REGISTRO CONSULTOR------------------------------------------------------ */
+.ctn-rco-1{
+    background-image: url('/img/registro-consultor/img-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctn-rco-2{
+    background-image: url('/img/registro-consultor/img-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 768px;
+}
+.ctn-2-1 h2{
+    font-family: Metropolis-SemiBold;
+    margin-top: 120px;
+    text-align: center;
+}
+.ctn-r-2 .form-group{
+    margin-top: 25px;
+}
+.ctn-2-1-1 input, .ctn-2-1-1 .form-control{
+    border: 2px solid #707070;
+    border-radius:30px;
+    background: transparent;
+}
+.ctn-r-2 input:focus,.ctn-r-21 input:hover, .ctn-r-2 input:active, .ctn-r-2select:hover,.ctn-r-2 select:focus, .ctn-r-2 select:active{
+    border: 2px solid #3C759E;
+    border-radius:30px;
+    background: transparent;
+    outline:0px;
+    box-shadow: 0 1px 1px rgba(255, 145, 0, 0) inset, 0 0 8px rgba(255, 145, 0, 0);
+}
+.ingresar{
+    text-align: center;
+}
+.ctn-rco-2 .ingresar input{
+    background: -webkit-gradient(linear, left top, left bottom, from(#4F9BD0), to(#284E68));
+    border-radius: 30px;
+    color: white !important;
+    padding: 5px 30px !important;
+    font-family: Metropolis-Regular;
+    border: none;
+}
+.link{
+    margin-top: 36px;
+    text-align: center;
+}
+.link a{
+    color: #818181;
+    text-align: center;
+}
+.link a:hover{
+    color: #3C759E;
+    text-align: center;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 3px solid #999999;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-style: dashed;
+    border-bottom-style: dashed;
+    color: #999999;
+    width: 100%;
+    text-align: center;
+}
+.fa-cloud-upload-alt{
+    color:#999999 !important;
+}
+.ingresar button{
+    background: -webkit-gradient(linear, left top, left bottom, from(#4F9BD0), to(#284E68));
+    border-radius: 30px;
+    color: white !important;
+    padding: 5px 30px !important;
+    font-family: Metropolis-Regular;
+    border: none;
+}
+.modal-content{
+    top: 250px;
+}
+/* --------------------------------------------------------------RESPONSIVE------------------------------------------------------ */
+@media (max-width: 992px) {
+    .nav-bar {
+        color: #010101 !important;
+        font-family: Metropolis-Regular;
+        text-align: center;
+    }
+    .stn-1 .stn-1-1 h1{
+        color: white;
+        text-align: center;
+        margin: 16px;
+        font-family: Metropolis-SemiBold;
+        font-size: 50px;
+    }
+    .navbar-nav .nav-item {
+        padding-right: 1.5rem !important;
+    }
+    .register {
+        background: -webkit-gradient(linear, left top, left bottom, from(#4F9BD0), to(#284E68));
+        border-radius: 30px;
+        color: white !important;
+        padding: 5px 30px !important;
+        font-family: Metropolis-Regular;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .ctn-rco-1{
+        display: none;
+    }
+    .ctn-rc-1{
+        display: none;
+    }
+    .ctn-r-1{
+        display: none;
+    }
+    .ctn-1{
+        display: none;
+    }
+    footer h6 {
+        color: white;
+        margin-top: 20px;
+    }
+    .stn-2-2 {
+        margin-top: 0;
+    }
+    .stn-3 .stn-3-2 {
+        margin-top: 0;
+    }
+    .stn-3 {
+        background-image: url(/img/background-img-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .navbar-nav .nav-item {
+        padding-right: 1.5rem !important;
+    }
+    .stn-1 .stn-1-1 h1{
+        color: white;
+        text-align: center;
+        margin: 16px;
+        font-family: Metropolis-SemiBold;
+        font-size: 35px;
+    }
+}
+@media (max-width: 576px) {
+    .stn-1 .stn-1-1 h1{
+        color: white;
+        text-align: center;
+        margin: 16px;
+        font-family: Metropolis-SemiBold;
+        font-size: 30px;
+    }
+    .stn-1-1-1 p {
+        color: white;
+        font-family: Metropolis-Regular;
+        font-weight: 100;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+@media (max-width: 360px) {
+    .stn-1 .stn-1-1 h1 {
+        color: white;
+        text-align: center;
+        margin: 16px;
+        font-family: Metropolis-SemiBold;
+        font-size: 24px;
+    }
+    .stn-1-1-1 p {
+        color: white;
+        font-family: Metropolis-Regular;
+        font-weight: 100;
+        line-height: 20px;
+        text-align: center;
+    }
+    .stn-3 {
+        background-image: url(/img/background-img-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+}
