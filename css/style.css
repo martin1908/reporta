@@ -12,6 +12,12 @@
     font-family: Metropolis-Light;
     src: url('/tipografia/Metropolis-Light.otf');
 }
+/*-------------------------------------------------------------------General-------------------------------------------------*/
+body{
+    width: 100%;
+    overflow: -webkit-paged-y;
+}
+
 /*-------------------------------------------------------------------Home-------------------------------------------------*/
 /* Navbar */
 .navbar-nav .nav-item {
@@ -180,7 +186,7 @@ footer hr{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 768px;
+    height: -webkit-fill-available;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,7 +197,7 @@ footer hr{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 768px;
+    height: -webkit-fill-available;
 }
 .ctn-2-1 h2{
     font-family: Metropolis-SemiBold;
@@ -236,6 +242,14 @@ footer hr{
     color: #3C759E;
     text-align: center;
 }
+.field-icon {
+    float: right;
+    /* margin-left: -47px; */
+    margin-top: -25px;
+    margin-right: 17px;
+    position: relative;
+    z-index: 2;
+}
 /* --------------------------------------------------------------REGISTRO------------------------------------------------------ */
 .ctn-r-1{
     background-image: url('/img/registtro/img-1.png');
@@ -243,7 +257,7 @@ footer hr{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 768px;
+    height: -webkit-fill-available;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -254,7 +268,7 @@ footer hr{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 768px;
+    height: -webkit-fill-available;
 }
 .ctn-2-1 h2{
     font-family: Metropolis-SemiBold;
@@ -306,7 +320,7 @@ footer hr{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 768px;
+    height: -webkit-fill-available;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -317,7 +331,7 @@ footer hr{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 768px;
+    height: -webkit-fill-available;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -378,7 +392,7 @@ footer hr{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 768px;
+    height: -webkit-fill-available;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -389,7 +403,7 @@ footer hr{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 768px;
+    height: -webkit-fill-available;
 }
 .ctn-2-1 h2{
     font-family: Metropolis-SemiBold;
@@ -462,8 +476,315 @@ input[type="file"] {
 .modal-content{
     top: 250px;
 }
+/* --------------------------------------------------------------UG04------------------------------------------------------ */
+.ctn1-ug-04{
+    background-image: url('/img/ug04/img-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctn2-ug-04{
+    background-image: url('/img/ug04/img-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctn2-ug-04 .title{
+    text-align: center;
+}
+.ctn2-ug-04 .title h1{
+    font-family: Metropolis-SemiBold;
+    color: #FFFFFF;
+    font-size: 35px;
+    padding: 30px 0px;
+}
+.ctn2-ug-04 .title p{
+    font-family: Metropolis-Regular;
+    color: #FFFFFF;
+    line-height: 10px;
+    font-size: 25px;
+}
+.ctn2-ug-04 .title .btn-register{
+    padding: 30px 1px;
+}
+.ctn2-ug-04 .title .btn-register a{
+    font-family: Metropolis-Regular;
+    color: #3C759E;
+    background: white;
+    border-radius: 30px;
+    padding: 7px 18px;
+}
+/* --------------------------------------------------------------UG04-1------------------------------------------------------ */
+.ctn3-ug-04{
+    background-image: url('/img/ug04/img-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctn4-ug-04{
+    background-image: url('/img/ug04/img-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ctn3-ug-04 .title{
+    text-align: center;
+}
+.ctn3-ug-04 .title h1{
+    font-family: Metropolis-SemiBold;
+    color: #FFFFFF;
+    font-size: 35px;
+    padding: 30px 0px;
+}
+.ctn3-ug-04 .title p{
+    font-family: Metropolis-Regular;
+    color: #FFFFFF;
+    line-height: 10px;
+    font-size: 25px;
+}
+.ctn3-ug-04 .title .btn-register{
+    padding: 30px 1px;
+}
+.ctn3-ug-04 .title .btn-register a{
+    font-family: Metropolis-Regular;
+    color: #3C759E;
+    background: white;
+    border-radius: 30px;
+    padding: 7px 18px;
+}
+/* --------------------------------------------------------------ML-1------------------------------------------------------ */
+.ctn-ml-1 .ctn-ml-1-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-family: Metropolis-Bold;
+}
+.ctn-ml-1 .ctn-ml-1-2{
+    margin-top: 10px;
+}
+.ctn-ml-1 .ctn-ml-1-2 .col-lg-3{
+    text-align: center;
+    margin-top: 20px;
+}
+.ctn-ml-1 .ctn-ml-1-2 .col-lg-3 a{
+    border: 1px solid #305F80;
+    color: #305F80;
+    border-radius: 30px;
+    padding: 6px 23px;
+    font-family: Metropolis-Regular;
+}
+.ctn-ml-1 .ctn-ml-1-2 .col-lg-3 .active{
+    background: -webkit-gradient(linear, left top, left bottom, from(#4F9BD0), to(#284E68));
+    border-radius: 30px;
+    color: white ;
+    padding: 6px 23px;
+    border: none;
+}
+.ctn-ml-2 h4{
+    font-family: Metropolis-Bold;
+    padding-left: 130px;
+    margin-top: 80px;
+}
+.ctn-ml-2 p{
+    padding-left: 130px;
+    text-align: left;
+    font-family: Metropolis-Regular;
+    color:#656565;
+}
+.ctn-ml-3 h4{
+    font-family: Metropolis-Bold;
+    padding-left: 130px;
+    margin-top: 40px;
+}
+.ctn-ml-5{
+    text-align: right;
+}
+.ctn-ml-5 a{
+    color: #305F80;
+}
+.ctn-ml-5 a:hover{
+    color: #305F80;
+}
+.title-table th{
+    text-align: center;
+    border: 1px solid transparent !important;
+    font-size: 15px;
+}
+.table-bordered td{
+    border: 2px solid #707070 !important;
+    vertical-align: middle !important;
+    color:#656565 !important;
+    font-size: 12px;
+}
+.title-table .dropdown-toggle{
+    color: white !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#4F9BD0), to(#284E68)) !important;
+    width: 20px;
+    height: 33px;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: -5px !important;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+.title-table .dropdown-toggle:focus{
+    outline:0px;
+
+}
+tbody tr .plantilla{
+    width: 220px !important;
+    text-align: center;
+}
+tbody tr .si-no{
+    color: #DF524E !important;
+    text-align: center;
+    width: 167px !important;
+    border-right: 2px solid white !important;
+}
+tbody tr .quien{
+    width: 170px !important;
+    text-align: center;
+    border-right: 2px solid white !important;
+}
+tbody tr .tipy{
+    width: 129px !important;
+    text-align: center;
+    border-right: 2px solid white !important;
+}
+tbody tr .date{
+    width: 124px !important;
+    text-align: center;
+    border-right: 2px solid white !important;
+}
+.sub-drow{
+background: url(/../img/ml-1/puntos.png)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 5px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    position: absolute;
+    height: 22px;
+    color: transparent !important;
+}
+.sub-drows{
+    background: url(/../img/ml-1/puntos2.png)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 5px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    position: absolute;
+    height: 22px;
+    color: transparent !important;
+}
+.page-item{
+    padding: 1px !important;
+}
+.page-item a{
+    font-size: 16px !important;
+}
+.page-link{
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #1E3A4E !important;
+    background-color: #fff;
+    border: 1px solid #ffffff00 !important;
+    font-family: Metropolis-Medium;
+}
+.page-item.disabled .page-link {
+    color: #1E3A4E !important;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #1E3A4E !important;
+    font-family: Metropolis-Medium;
+    border-radius: 0px !important;
+}
+.dro-item-1{
+    font-family: Metropolis-Regular;
+    color: #3C759E !important;
+}
+.dro-item-2{
+    color:#818181 !important;
+    font-family: Metropolis-Regular;
+}
 /* --------------------------------------------------------------RESPONSIVE------------------------------------------------------ */
 @media (max-width: 992px) {
+    .ctn-ml-2 h4 {
+        font-family: Metropolis-Bold;
+        padding-left: 0px;
+        margin-top: 80px;
+    }
+    .ctn-ml-2 p {
+        padding-left: 0;
+        text-align: justify;
+        font-family: Metropolis-Regular;
+        color: #656565;
+    }
+    .ctn3-ug-04 .title h1 {
+        font-family: Metropolis-SemiBold;
+        color: #FFFFFF;
+        font-size: 30px;
+        padding: 30px 0px;
+    }
+    .ctn3-ug-04 .title p {
+        font-family: Metropolis-Regular;
+        color: #FFFFFF;
+        line-height: 20px;
+        font-size: 22px;
+    }
+    .ctn2-ug-04 .title h1 {
+        font-family: Metropolis-SemiBold;
+        color: #FFFFFF;
+        font-size: 30px;
+        padding: 30px 0px;
+    }
+    .ctn2-ug-04 .title p {
+        font-family: Metropolis-Regular;
+        color: #FFFFFF;
+        line-height: 22px;
+        font-size: 22px;
+    }
     .nav-bar {
         color: #010101 !important;
         font-family: Metropolis-Regular;
@@ -489,6 +810,62 @@ input[type="file"] {
     }
 }
 @media (max-width: 768px) {
+    .ctn-ml-3 h4 {
+        font-family: Metropolis-Bold;
+        padding-left: 0;
+        margin-top: 40px;
+    }
+    .sub-drow {
+        background: url(/../img/ml-1/puntos.png)!important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 5px;
+        -webkit-appearance: none;
+        appearance: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        background-position: center;
+        position: absolute;
+        height: 22px;
+        color: transparent !important;
+        right: 16px;
+    }
+    .sub-drows{
+        background: url(/../img/ml-1/puntos2.png)!important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 5px;
+        -webkit-appearance: none;
+        appearance: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        background-position: center;
+        position: absolute;
+        height: 22px;
+        color: transparent !important;
+        right: 16px;
+    }
+    .ctn-ml-2 h4 {
+        font-family: Metropolis-Bold;
+        padding-left: 0px;
+        margin-top: 80px;
+    }
+    .ctn-ml-2 p {
+        padding-left: 0;
+        text-align: justify;
+        font-family: Metropolis-Regular;
+        color: #656565;
+    }
+    .ctn4-ug-04{
+        display: none;
+    }
+    .ctn1-ug-04{
+        display: none;
+    }
     .ctn-rco-1{
         display: none;
     }
@@ -532,6 +909,21 @@ input[type="file"] {
     }
 }
 @media (max-width: 576px) {
+    .ctn-ml-1-1 h4{
+        font-size: 20px;
+    }
+    .ctn2-ug-04 .title h1 {
+        font-family: Metropolis-SemiBold;
+        color: #FFFFFF;
+        font-size: 25px;
+        padding: 30px 0px;
+    }
+    .ctn2-ug-04 .title p {
+        font-family: Metropolis-Regular;
+        color: #FFFFFF;
+        line-height: 16px;
+        font-size: 16px;
+    }
     .stn-1 .stn-1-1 h1{
         color: white;
         text-align: center;
