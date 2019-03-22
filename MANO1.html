@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+    <div class="contianer">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-12">
+                <div class="col-12 ctn-man-01">
+                    <div class="row">
+                        <div class="ctn-ml-01-1 col-md-2">
+                            <!-- <img class="img-fluid" src="/img/ml-1/left.png" alt=""/> -->
+                            <h4>Acciones</h4>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row ctn-row">
+                            <div class="col-md-1">
+                                <p>Mostrar</p>
+                            </div>
+                            <div class="col-md-1">
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-1">
+                                <p>Items</p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control buscar"  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="button">Buscar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-1">
+                                <p>Prioridad:</p>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect2">
+                                        <option>Todos</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2 stado">
+                                Estado de Accion:
+                            </div>
+                            <div class="col-md-1">
+                                <div class="form-group">
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option>Todos</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container table-responsive">
+        <table class="table table-bordered table-sm ctn-table">
+            <thead>
+                <tr>
+                <th>ID
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </th>
+                <th class="responsable">Responsable
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+
+                </th>
+                <th>Nombre de la acción
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </th>
+                <th class="inspeccion">Nombre de la inspección
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </th>
+                <th class="vencimiento">Fecha de vencimiento
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </th>
+                <th class="prioridad">Prioridad
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </th>
+                <th class="estado">Estado
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </a>
+                    
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td><a href="" class="links" data-toggle="modal" data-target=".bd-example-modal-lg">201932644985</a></td>
+                <td><p>Sergio Armando
+                    <br>
+                     <span> Alba Pinedo</span>
+                    </p>
+                 </td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Feb 22, 2019</td>
+                <td>Media</td>
+                <td>Pendiente</td>
+                </tr>
+                <tr>
+                <td><a href="">201932644985</a></td>
+                <td><p>Sergio Armando
+                    <br>
+                        <span> Alba Pinedo</span>
+                    </p>
+                    </td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Feb 22, 2019</td>
+                <td>Media</td>
+                <td>Pendiente</td>
+                </tr>
+                <tr>
+                <td><a href="">201932644985</a></td>
+                <td><p>Sergio Armando
+                    <br>
+                        <span> Alba Pinedo</span>
+                    </p>
+                    </td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Feb 22, 2019</td>
+                <td>Media</td>
+                <td>Pendiente</td>
+                </tr>
+                <tr>
+                <td><a href="">201932644985</a></td>
+                <td><p>Sergio Armando
+                    <br>
+                        <span> Alba Pinedo</span>
+                    </p>
+                    </td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Feb 22, 2019</td>
+                <td>Media</td>
+                <td>Pendiente</td>
+                </tr>
+                <tr>
+                <td><a href="">201932644985</a></td>
+                <td><p>Sergio Armando
+                    <br>
+                        <span> Alba Pinedo</span>
+                    </p>
+                    </td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Feb 22, 2019</td>
+                <td>Media</td>
+                <td>Pendiente</td>
+                </tr>
+                <tr>
+                <td><a href="">201932644985</a></td>
+                <td><p>Sergio Armando
+                    <br>
+                        <span> Alba Pinedo</span>
+                    </p>
+                    </td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Feb 22, 2019</td>
+                <td>Media</td>
+                <td>Pendiente</td>
+                </tr>
+                <tr>
+                <td><a href="">201932644985</a></td>
+                <td><p>Sergio Armando
+                    <br>
+                        <span> Alba Pinedo</span>
+                    </p>
+                    </td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae scelerisque ipsum.</td>
+                <td>Feb 22, 2019</td>
+                <td>Media</td>
+                <td>Pendiente</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header modal-header-1 title-caja-modal">
+                        <h5 class="modal-title" id="exampleModalLabel">Accion correctiva</h5>
+                        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button> -->
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Nombre de la acción</h5>
+                                    <p>Sergio Armando Alba Pinedo </p>
+                                    <p>Fecha de vencimiento: <span>20/04/2019</span></p>
+                                    <p class="priori">Prioridad: <span>Alta</span></p>
+                                    <p>Estado: <span>En proceso</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h6>Avence 15/12/2019</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci rerum, non optio odio architecto maiores expedita fuga laboriosam. Sed voluptatum qui deleniti excepturi quia porro quisquam. Quisquam natus nostrum, magni, aut provident amet quam fuga voluptatibus, totam ducimus dolore? Autem qui quia eum laudantium laboriosam quod deleniti, incidunt ullam cum debitis hic quibusdam corrupti nam soluta vel quam, dignissimos possimus. </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/img/MAN01/img1.png" alt="">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/img/MAN01/img2.png" alt="">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/img/MAN01/img3.png" alt="">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/img/MAN01/img4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h6>Avence 15/12/2019</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci rerum, non optio odio architecto maiores expedita fuga laboriosam. Sed voluptatum qui deleniti excepturi quia porro quisquam. Quisquam natus nostrum, magni, aut provident amet quam fuga voluptatibus, totam ducimus dolore? Autem qui quia eum laudantium laboriosam quod deleniti, incidunt ullam cum debitis hic quibusdam corrupti nam soluta vel quam, dignissimos possimus. </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/img/MAN01/img1.png" alt="">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/img/MAN01/img2.png" alt="">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/img/MAN01/img3.png" alt="">
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/img/MAN01/img4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container ">
+                            <div class="btn-modal offset-2 col-md-9">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="">Aprobado</a>
+                                    </div>
+                                    <div class="col-md-4"><a href="">Finalizado</a></div>
+                                    <div class="col-md-4">
+                                        <a href="" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg-1">Registrar avance</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade bd-example-modal-lg-1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header modal-header-1 title-caja-modal-2">
+                                        <h5 class="modal-title" id="exampleModalLabel">Registrar avance</h5>
+                                        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button> -->
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <form action="">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <h6>Estado</h5>
+                                                                    <div class="form-group">
+                                                                        <select class="form-control" id="exampleFormControlSelect1">
+                                                                            <option>Selecciona una opción de la lista</option>
+                                                                            <option>2</option>
+                                                                            <option>3</option>
+                                                                            <option>4</option>
+                                                                            <option>5</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="form-group textarea">
+                                                                        <textarea class="l" name="textarea" rows="8" cols="100" placeholder="Ingresa tus comentarios"></textarea>
+                                                                    </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-3">
+                                                                <div class="col-12 agregar-img">
+                                                                    <a href=""><img src="/img/MAN01/Trazado 6010.png" alt="">
+                                                                        <br>
+                                                                        Agregar imagen
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="col-12 agregar-img">
+                                                                    <a href=""><img src="/img/MAN01/Trazado 6010.png" alt="">
+                                                                        <br>
+                                                                        Agregar imagen
+                                                                    </a>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="col-12 agregar-img">
+                                                                    <a href=""><img src="/img/MAN01/Trazado 6010.png" alt="">
+                                                                        <br>
+                                                                        Agregar imagen
+                                                                    </a>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3">
+                                                                <div class="col-12 agregar-img">
+                                                                    <a href=""><img src="/img/MAN01/Trazado 6010.png" alt="">
+                                                                        <br>
+                                                                        Agregar imagen
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row offset-3 col-md-6 cerrar">
+                                                            <div class="modal-footer">
+                                                                <input class="btn btn-primary boton-crear-registro" type="submit" value="Registrar">
+                                                                <button type="button" class="btn btn-secondary boton-crear-registro" data-dismiss="modal">Cancelar</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-12">
+                <nav aria-label="...">
+                    <ul class="pagination pagination-lg justify-content-center">
+                        <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------ FOOTER------------------------------>
+	<footer>
+        <div class="container footer-cont">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="col-12">
+                        <img src="/img/logo-footer.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-12">
+                        <h6>CONTÁCTANOS</h6>
+                        <p>Podrás encontrarnos de lunes a viernes de 10h a 18h y el sábado de 10h a 14h (CET)
+                                Lllámanos: +34 932 20 11 57
+                                Email: support@reporta.com</p>				
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="col-12">
+                        <h6>SÍGUENOS</h6>
+                        <div class="row">
+                            <div class="col-md-3 col-3 col-lg-3">
+                                <img src="/img/what.png" alt="">
+                            </div>
+                            <div class="col-md-3 col-3 col-lg-3">
+                                <img src="/img/face.png" alt="">
+                            </div>
+                            <div class="col-md-3 col-3 col-lg-3">
+                                <img src="/img/ins.png" alt="">
+                            </div>
+                            <div class="col-md-3 col-3 col-lg-3">
+                                <img src="/img/twi.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="col-12">
+                        <h6>CÓMO FUNCIONA?</h6>
+                        <p>Beneficios para tu empresa</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="col-12">
+                        <h6>OTROS</h6>
+                        <p>Terminos y condiciones</p>
+                        <p>Garantia y confianza</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="reporta">
+                    <p>© COPYRIGHT REPORTA | 2019 Todos los derechos reservados</p>
+                </div>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="/js/main.js" type='text/javascript'></script>
+</html>
