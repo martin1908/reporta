@@ -16,7 +16,9 @@
 body{
     width: 100%;
 }
-
+th{
+    font-size: 14px !important;
+}
 /*-------------------------------------------------------------------Home-------------------------------------------------*/
 /* Navbar */
 .navbar-nav .nav-item {
@@ -1037,6 +1039,19 @@ select{
     border-radius: 5px;
     padding: 1px 16px;
 }
+/*  */
+.man-mol{
+    display: block !important;
+}
+.man-mol button{
+    border-radius: 30px !important;
+}
+.textarea textarea{
+    width: 100%;
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 1px 18px;
+}
 /* --------------------------------------------------------------MPL01------------------------------------------------------ */
 .ctn-mpl01-1 h4{
     text-align: right;
@@ -1641,7 +1656,20 @@ select{
     transition-delay: 0s;
     left: 0;
   }
-  
+  .ctn-mpl-2-1{
+    display: flex;
+    align-items: center;
+  }
+  .ctn-mpl-2-1 p{
+    margin-top: 49px;
+    padding-left: 20px;
+  }
+  .input-1{
+    padding-left: 80px !important;
+  }
+  .input-2{
+    padding-left: 80px !important;
+  }
 /* --------------------------------------------------------------RESPONSIVE------------------------------------------------------ */
 @media (max-width: 992px) {
     .ctn-ml-2 h4 {
@@ -1803,6 +1831,40 @@ select{
     }
 }
 @media (max-width: 576px) {
+    .progress-bar--4 {
+        height: 3px;
+        background-color: #efefef;
+        width: 200px;
+    }
+    .agregar-img{
+        margin-top: 10px;
+    }
+    .man-mol{
+        display: inline !important;
+        padding: 0 !important;
+    }
+    .man-mol button{
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 30px !important;
+    }
+    .btn-modal a {
+        background: -webkit-gradient(linear, left top, left bottom, from(#4F9BD0), to(#284E68)) !important;
+        color: white;
+        padding: 4px 14px;
+        border-radius: 30px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .ctn-rc-2 p {
+        text-align: center;
+        line-height: 17px;
+        font-family: Metropolis-Regular;
+        margin-top: 28px;
+    }
+    .n-celular{
+        margin-top: 20px;
+    }
     .ctn-ml-1-1 h4{
         font-size: 20px;
     }
